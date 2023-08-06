@@ -11,5 +11,5 @@ app.use(express.json());
 const noteRoutes = require("./routes/notes");
 
 app.use("/", noteRoutes);
-///initialize port to start listening
+
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
